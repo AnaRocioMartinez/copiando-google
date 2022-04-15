@@ -36,7 +36,7 @@ html{
     border-radius: 50%;
 }
 .header__lista--item:hover{
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(174, 172, 171, 0.5);
 }
 .lista img{
     width: 0.7rem;
@@ -45,7 +45,10 @@ html{
     color:rgba(0,0,0,.87);
     display: block;
 }
-
+.cuadricula {
+    display: block;
+    margin: 0 auto;
+}
 .lista:last-child{
     padding-right: 0.5rem;
 }
@@ -62,9 +65,24 @@ html{
     border: 2px black solid;
 }
 
+
+
+
 /*----------------header fin--------*/
 
 .titulo{
     width: 100vw;
-    text-align: center ;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono {
+    margin: auto 0px;
+}
+
+.box {
+    width: 100vw;
+    height: 8rem;
 }
